@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <math.h>
-#include "../common/array.h"
+#include "array.h"
 
 using namespace std;
 

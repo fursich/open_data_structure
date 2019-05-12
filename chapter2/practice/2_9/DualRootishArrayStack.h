@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <math.h>
-#include "../common/RootishArrayStack.h"
+#include "RootishArrayStack.h"
 
 using namespace std;
 

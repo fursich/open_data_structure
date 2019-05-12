@@ -2,7 +2,7 @@
 #define RANDOM_QUEUE_H_
 
 #include <random>
-#include "../common/ArrayStack.h"
+#include "ArrayStack.h"
 
 using namespace std;
 

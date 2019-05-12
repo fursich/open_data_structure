@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <math.h>
-#include "../common/RootishArrayDeque.h"
+#include "RootishArrayDeque.h"
 
 using namespace std;
 

@@ -2,7 +2,7 @@
 #define CENTRALIZED_ARRAY_DEQUE_H_
 
 #include <iostream>
-#include "../common/array.h"
+#include "array.h"
 
 using namespace std;
 

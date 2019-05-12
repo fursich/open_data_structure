@@ -2,7 +2,7 @@
 #define TREQUE_H_
 
 #include <iostream>
-#include "../common/ArrayDeque.h"
+#include "ArrayDeque.h"
 
 using namespace std;
 

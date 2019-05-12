@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <math.h>
-#include "../common/ArrayStack.h"
-#include "../common/BDeque.h"
+#include "ArrayStack.h"
+#include "BDeque.h"
 
 using namespace std;
 
