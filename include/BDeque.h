@@ -17,6 +17,8 @@ namespace data_structure {
   public:
     BDeque(int b);
     virtual ~BDeque();
+    using ArrayDeque<T>::add;
+    void add(T x);
     T pop();
     T shift();
 
@@ -30,6 +32,8 @@ namespace data_structure {
   BDeque<T>::BDeque(int b) {
     j = 0;
     n = 0;
+    /* NOTE: this BDqueue creates an array of given size b (as-is), NOT b+1 */
+    /* so that it can be used for general purposes (beyond SEList) */
     array<int> z(b);
     a = z;
   }
@@ -46,6 +50,11 @@ namespace data_structure {
   template<class T>
   void BDeque<T>::resize() {
     assert(n < a.length);
+  }
+
+  template<class T>
+  void BDeque<T>::add(T x) {
+    return this->add(this->size(), x);
   }
 
   template<class T>
